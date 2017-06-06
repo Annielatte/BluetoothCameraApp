@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/flash_on"
+        android:state_checked="true" />           // 버튼이 체크되었을때 이미지 설정
+
+    <item android:drawable="@drawable/flash_off"
+        android:state_checked="false" />          // 버튼이 체크되었을때 이미지 설정
+
+</selector>
